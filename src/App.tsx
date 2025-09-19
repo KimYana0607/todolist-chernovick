@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 // // import {FullInput} from "./fullInput/FullInput.tsx";
 // import {Input} from "./fullInput/Input.tsx";
 // import {Button} from "./fullInput/Button.tsx";
-import OnOff from "./onOff/OnOff.tsx";
+// import OnOff from "./onOff/OnOff.tsx";
 // import {UnControlledAccordion} from "./accordion/UnControlledAccordion";
 // import {UnControlledRating} from "./rating/UnControlledRating";
 // import {Rating, RatingValueType} from './rating/Rating'
@@ -37,7 +37,7 @@ const App = () => {
     // }
 
     // let [on, setOn] = useState(false)
-    let [swichOn, setSwichOn] = useState(false)
+    let [switchOn, setSwitchOn] = useState(false)
 
     return (
         <div className={"App"}>
@@ -47,7 +47,7 @@ const App = () => {
             {/*<UnControlledAccordion titleValue={'Menu'}/>*/}
             {/*<UnControlledAccordion titleValue={'Users'}/>*/}
             {/*<OnOff state={on} onChange={setOn}/>*/}
-            <UncontrolledOnOff onChange={setSwichOn}/> {swichOn.toString()}
+            <UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
             {/*<Input title = {title} setTitle={setTitle}/>*/}
             {/*<Button name={'+'}*/}
             {/*        callBack={callBackButtonHandler}*/}

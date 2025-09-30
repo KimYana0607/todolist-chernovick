@@ -7,7 +7,7 @@ import {useState} from 'react';
 // import {UnControlledRating} from "./rating/UnControlledRating";
 // import {Rating, RatingValueType} from './rating/Rating'
 import Accordion from "./accordion/Accordion";
-import UncontrolledOnOff from "./onOff/UncontrolledOnOff.tsx";
+import { UncontrolledOnOff } from "./unControlledOnOff/UncontrolledOnOff";
 
 const App = () => {
     // let [ratingValue, setRatingValue] = useState<RatingValueType>(4)

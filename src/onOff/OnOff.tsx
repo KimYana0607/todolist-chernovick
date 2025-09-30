@@ -3,11 +3,10 @@
 type PropsType = {
     state: boolean
     onChange: (state:boolean)=>void
-    // on: boolean
 }
 
 
-const OnOff = (props: PropsType) => {
+export const OnOff = (props: PropsType) => {
 
 
     const onStyle = {
@@ -45,5 +44,3 @@ const OnOff = (props: PropsType) => {
         </div>
     );
 };
-
-export default OnOff;
